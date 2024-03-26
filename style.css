@@ -1,0 +1,18 @@
+body{
+    background-color: rgba(188,143,143);
+    font-family: "Rye", serif;;
+}
+
+.desafio1{
+    color: orange;
+}
+
+.lista1{
+    list-style-type: lower-greek;
+    color: #00008B;
+}
+
+.lista2{
+    list-style-type: lower-roman;
+    color: #00008B;
+}
