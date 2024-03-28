@@ -1,0 +1,9 @@
+.texto{
+    background-color: chartreuse;
+    height: 300px;
+    width: 300px;
+    border: dashed;
+    margin: 5px 8px;
+    padding: 6px 9px;
+    overflow: scroll;
+}
