@@ -12,10 +12,6 @@ div{
     left: 100px;
 }
 
-.quadradro-branco{
-    
-}
-
 .quadrado-vermelho{
     background-color: red;
     animation-name: animacao;
