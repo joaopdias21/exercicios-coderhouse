@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+div{
+    height: 200px;
+    width: 200px;
+    border: solid 2px black;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}
+
+.quadradro-branco{
+    
+}
+
+.quadrado-vermelho{
+    background-color: red;
+    animation-name: animacao;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    
+    
+}
+
+@keyframes animacao{
+    100%{
+        transform: skew(20deg, 10deg);
+    }
+}
+
+
