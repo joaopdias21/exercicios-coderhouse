@@ -1,34 +1,54 @@
-
+body{
+    display: flex;
+}
 
 .nav{
     background-color: yellow;
-    flex-direction: column;
-    align-items: stretch;
+    width: 15%;
+    background-image: url("./imagem4.jpg");
+    color: white;
+
 }
 
 
-
 .header{
+    height: 100px;
     background-color: aqua;
     display: flex;
-    width: 10%;
+    width: 100vh;
+    background-image: url("./imagem1.jpg");
+    color: white;
 }
 
 .main__section{
     background-color: purple;
+    width: 30%;
+    background-image: url("./imagem2.jpg");
+    color: white;
+
 }
 
 .main__aside{
     background-color: red;
+    flex-grow: 1;
+    background-image: url("./imagem3.jpg");
+    color: white;
+
 }
 
 .footer{
     background-color: blue;
     height: 50px;
+    background-image: url("./imagem4.jpg");
+    color: white;
+
+
 }
 
 .main{
     flex-grow: 1;
     background-color: crimson;
     display: flex;
+    height: 100vh;
+
 }
