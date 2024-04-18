@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+}
+.container{
+    height: 100vh;
+    display: grid;
+
+    
+    grid-template-rows: 100px 1fr 100px;
+
+    grid-template-areas: 
+
+    "header"
+    "content"
+    "footer"
+    ;
+
+    gap: 16px;
+}
+
+@media only screen and (min-width: 769px){
+    .container{
+        height: 100vh;
+        grid-template-columns: 1fr 30%;
+
+        grid-template-areas: 
+        "header header"
+        "content footer"
+
+        ;
+
+        gap: 16px;
+    }
+}
+
+header{
+    grid-area: header;
+    background-color: blue;
+}
+
+main{
+    grid-area: content;
+    background-color: crimson;
+}
+
+footer{
+    grid-area: footer;
+    background-color: darkorchid;
+}
