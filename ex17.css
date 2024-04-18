@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+}
+
+
+.grid{
+    height: 100vh;
+    display: grid;
+
+    grid-template-areas: 
+    "nav header header"
+    "nav conteudo aside1"
+    "footer conteudo aside2"
+    ;
+
+    grid-template-columns: 20% 50%;
+    grid-template-rows: 100px 1fr 250px;
+
+    gap: 16px;
+
+    
+}
+
+header{
+    background-color: aqua;
+    grid-area: header;
+    border-radius: 500px;
+}
+
+nav{
+    background-color: darkslategray;
+    grid-area: nav;
+    border-radius: 40px;
+
+}
+
+section{
+    background-color: brown;
+    grid-area: conteudo;
+    border-radius: 40px;
+
+}
+
+.aside1{
+    background-color: darkblue;
+    grid-area: aside1;
+    border-radius: 40px;
+}
+
+.aside2{
+    background-color: deeppink;
+    grid-area: aside2;
+    border-radius: 40px;
+
+}
+
+footer{
+    background-color: red;
+    grid-area: footer;
+    border-radius: 50px;
+
+}
